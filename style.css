@@ -1,0 +1,29 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+.icon {
+  background-color: red;
+}
+
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height:30px;
+  width: 30px;
+  padding: 12px;
+  z-index: 2;
+  border-radius: 50%;
+    background-image: url(music.svg);
+    background-repeat: no-repeat!important;
+    background-position: center;
+    background-size: 16px;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:30px;
+  background-color: gainsboro;
+}
+.play {
+  background-image: url(music.svg);
+}
+.pause {
+   background-image: url(mute.svg)!important;
+}
